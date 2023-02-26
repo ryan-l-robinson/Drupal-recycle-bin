@@ -5,8 +5,9 @@ USER root
 SHELL ["/bin/bash", "-c"]
 
 # Install other needed packages
-RUN add-apt-repository -y ppa:ondrej/php
-RUN add-apt-repository -y ppa:ondrej/apache2
+RUN sudo apt update && sudo apt install software-properties-common -y
+RUN sudo add-apt-repository -y ppa:ondrej/php
+RUN sudo add-apt-repository -y ppa:ondrej/apache2
 RUN sudo apt update -y
 RUN sudo apt upgrade -y
 RUN sudo apt install php8.0
