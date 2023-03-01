@@ -1,0 +1,39 @@
+uuid: 83ac45af-237b-46ab-a341-32f7bc9bf8ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recyclable_content_type_.body
+    - field.field.node.recyclable_content_type_.field_flag_for_delete
+    - node.type.recyclable_content_type_
+  module:
+    - text
+    - user
+id: node.recyclable_content_type_.default
+targetEntityType: node
+bundle: recyclable_content_type_
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_flag_for_delete:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 0dcfc3b8-0e8e-49c7-9127-276df20f6dfd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_flag_for_delete
+field_name: field_flag_for_delete
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

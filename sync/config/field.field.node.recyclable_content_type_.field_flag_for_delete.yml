@@ -1,0 +1,23 @@
+uuid: 7ce90934-4f94-4b1f-915e-5bcb5495e270
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_flag_for_delete
+    - node.type.recyclable_content_type_
+id: node.recyclable_content_type_.field_flag_for_delete
+field_name: field_flag_for_delete
+entity_type: node
+bundle: recyclable_content_type_
+label: 'Flag for Delete'
+description: 'Marking this field will put it on a list for administrators to delete when it is more than 30 days old. If you change your mind before then, you can come back here and uncheck this option again.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Delete
+  off_label: Keep
+field_type: boolean
