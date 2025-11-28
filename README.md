@@ -1,5 +1,7 @@
 ## Overview
 
+Update: as GitPod has transitioned to Ona, combined with me having a better local Docker setup for my developer environments, I will no longer be maintaining any of the GitPod-dependent projects.
+
 This provides a base Drupal site that can function within [GitPod](https://gitpod.io), with the addition of a soft delete / recycle bin system
 
 ## Related Blog Post
